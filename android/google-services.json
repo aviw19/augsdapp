@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "420806767028",
+    "project_id": "augsdapp",
+    "storage_bucket": "augsdapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420806767028:android:eacbfd4632cb9fd44582e1",
+        "android_client_info": {
+          "package_name": "com.example.augsdoffice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420806767028-4rlhq6ac2kljpjqfs9v3b97ptmeq052r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.augsdoffice",
+            "certificate_hash": "e6777a1023788c48bd4091de653099e6593fd229"
+          }
+        },
+        {
+          "client_id": "420806767028-09lsg3lt5ve4k8olj4usucdo1co09lja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUCudOdVC8tJSykxZAaxeu_ZhtC9U96Dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420806767028-09lsg3lt5ve4k8olj4usucdo1co09lja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
