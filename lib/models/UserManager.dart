@@ -7,7 +7,7 @@ class UserManager {
   static Future<User> createUser(
       String name, String email, String password) async {
     final response = await http.post(
-      Uri.parse('http://127.0.0.1:8000/api/user'),
+      Uri.parse('http://127.0.0.1:8000/api/custom-user'),
       headers: <String, String>{
         'Content-Type': 'application/json; charset=UTF-8',
       },
@@ -25,7 +25,7 @@ class UserManager {
 
   static Future<User> getUser(String email) async {
     final response = await http.post(
-      Uri.parse('http://127.0.0.1:8000/api/user/' + email),
+      Uri.parse('http://127.0.0.1:8000/api/custom-user/' + email),
       headers: <String, String>{
         'Content-Type': 'application/json; charset=UTF-8',
       },
