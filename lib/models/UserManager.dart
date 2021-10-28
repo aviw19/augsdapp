@@ -14,7 +14,7 @@ class UserManager {
     );
   }
 
-  static Future<User> getUser(String name, String email) async {
+  static Future<User> getUser(String email) async {
     final response = await http.post(
       Uri.parse('http://127.0.0.1:8000/api/user/' + email),
       headers: <String, String>{
